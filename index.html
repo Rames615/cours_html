@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ma premiere page web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Bienvenue sur mon site web!</h1>
+
+    <p>
+      Cette page web est un exemple minimaliste pour débuter avec HTML, CSS et
+      JavaScript.
+    </p>
+    <p>
+      Vous pouvez modifier le contenu de cette page et ajouter des éléments HTML
+      et CSS pour enrichir votre site web.
+    </p>
+    <ul>
+      <li><a href="/index.html"></a>Home</li>
+      <li><a href="http://www.google.com"></a>Site de Google</li>
+      <li><a href="#"></a>Aller à la section</li>
+      <li><a href="docs.pdf" download=""></a>télécharger docs</li>
+      <li>
+        <li>facebook</li>
+        <a
+          href="http://www.google.com"
+          target="_blank"
+          title="Visitez des section de DW"
+        ></a
+        >Site de Google
+      </li>
+    </ul>
+
+    <form action="#">
+      <label for="nom">Nom:</label>
+      <input type="text" id="nom" name="nom" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" required />
+      <label for="pays">pays</label>
+      <select id="pays" name="pays" required>
+        <option value="">Sélectionnez un pays</option>
+        <option value="fr">France</option>
+        <option value="us">États-Unis</option>
+        <option value="es">Espagne</option>
+        <option value="it">Italie</option>
+        <option value="de">Allemagne</option>
+        <option value="jp">Japon</option>
+        <option value="au">Australie</option>
+        <option value="ca">Canada</option>
+        <option value="uk">Royaume-Uni</option>
+        <option value="nl">Pays-Bas</option>
+        <option value="ch">Suisse</option>
+        <option value="be">Belgique</option>
+        <option value="se">Suède</option>
+      </select>
+      <label for="message">massage</label>
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="Tapez votre message"></textarea>
+      <button type="submit">Envoyez</button>
+    </form>
+  </body>
+</html>
